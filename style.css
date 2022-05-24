@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+body { 
+    display: flex;
+    flex-direction: column;
+    margin: 15% 20% 0 20%;
+    text-align: center;
+    background-image: url(wall5.jpg);
+    font-family: "Quicksand";
+} 
+
+h1 {
+    font-size: 40px;
+}
+
+.one {
+    color: #a6b4d1;
+}
+
+.two {
+    color: #ffe9c4;
+}
+
+p {
+    font-size: 20px;
+}
+
+button {
+    align-self: center;
+    background-color:#a6b4d1;
+    font-family: "Quicksand";
+    border: solid 1px #656d7f;
+    border-radius: 10px;
+    height: 40px;
+    width: 90px;
+    font-size: 20px;
+}
+
+input {
+    font-family: "Quicksand";
+    height: 40px;
+    width: 160px;
+    margin-right: 20px;
+    background-color: #ffe9c4;
+    font-size: 20px;
+    border: solid 1px #817b6e;
+}
